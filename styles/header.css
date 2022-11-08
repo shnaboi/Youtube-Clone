@@ -1,7 +1,28 @@
-.search-bar {
-    font-size: 14px;
-    margin-left: 12px;
-    border-radius: 4px;
-    border-width: 1px;
-    display: block;
+.header {
+    height: 55px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-header {
+    background-color: lightblue;
+    width: 175px;
+}
+
+.middle-header {
+    background-color: lightpink;
+    flex: 1;
+    margin-left: 40px;
+    margin-right: 40px;
+    max-width: 550px;
+    /*
+    add padding to either side to match finished product
+    */
+}
+
+.right-header {
+    background-color: lightblue;
+    width: 225px;
 }
