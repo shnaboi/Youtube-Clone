@@ -3,7 +3,7 @@
 }
 
 .thumbnail-row {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     position: relative;
 }
 
@@ -28,6 +28,24 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
+}
+
+@media (max-width: 899px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1171px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1172px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
 
 .video-info-grid {
