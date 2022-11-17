@@ -8,13 +8,9 @@
 }
 
 .video-time {
-    font-family: Robot, Arial;
     font-size: 12px;
     font-weight: 700;
-    padding-left: 4px;
-    padding-right: 4px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding: 4px;
     border-radius: 2px;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.9);
