@@ -28,5 +28,8 @@
 .sidebar-link div {
     font-size: 10px;
     padding-top: 6px;
-    font-family: Roboto, Arial;
+}
+
+.sidebar-link:hover {
+    cursor: pointer;
 }
